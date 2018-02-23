@@ -4,68 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Aliens</title>
+    <title>Belly Button Biodiversity Dashboard</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
+        <div class="jumbotron">
+            <h1 class="display-3">Belly Button Biodiversity Dashboard</h1>
+            <p class="lead">
+                Use the interactive charts below to explore the dataset
+            </p>
+        </div>  
         <div class="row">
-            <div class="col-md-2">
-                <div class="form-group">
-                    <input type="text" class="form-control" id="date" placeholder="Date">
-                </div>
+            <div class="col-md-6">
+                <h2>Select a sample</h2>
+                <select id="selDataset" onchange="getData(this.value)">
+                    <option value="dataset1">United States</option>
+                    <option value="dataset2">UK</option>
+                    <option value="dataset3">Canada</option>
+                </select>
+                <div id="pie"></div>
             </div>
-            <div class="col-md-2">
-                 <div class="form-group">
-                    <input type="text" class="form-control" id="city" placeholder="City">
-                </div>   
+            <div class="col-md-6">
+                <h1>Scrubbing frequency placeholder</h1>
             </div>
-            <div class="col-md-2">
-                 <div class="form-group">
-                    <input type="text" class="form-control" id="state" placeholder="State">
-                </div>   
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Bubble chart placeholder</h1>
             </div>
-            <div class="col-md-2">
-                 <div class="form-group">
-                    <input type="text" class="form-control" id="country" placeholder="Country">
-                </div>   
-            </div>
-            <div class="col-md-2">
-                 <div class="form-group">
-                    <input type="text" class="form-control" id="shape" placeholder="Shape">
-                </div>   
-            </div>
-            <a id="search" class="btn btn-default">Search</a>
         </div>
     </div>
-    <div class="row">
-        <div class="col-md-12">
-            <nav aria-label="...">
-                <ul class="pager">
-                    <li class="previous", id="prev"><a href="#"><span aria-hidden="true">&larr;</span> Previous</a></li>
-                    <li class="next", id="next"><a href="#">Next <span aria-hidden="true">&rarr;</span></a></li>
-                </ul>
-            </nav>
-            <table class="table table-striped">
-                <thead>
-                    <tr>
-                        <th>datetime</th>
-                        <th>city</th>
-                        <th>state</th>
-                        <th>country</th>
-                        <th>shape</th>
-                        <th>durationMinutes</th>
-                        <th>comments</th>
-                    </tr>
-                </thead>
-                <tbody id="tbody">
-                </tbody>
-            </table>
-        </div>
-        </div>
-  </div>
-    <script src="js/data.js" type="text/javascript"></script>
-    <script src="js/index.js" type="text/javascript"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename = 'pie.js') }}"></script>
 </body>
 </html>

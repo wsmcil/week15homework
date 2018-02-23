@@ -12,16 +12,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return 'Hello'
-    # Initialize PyMongo to work with MongoDBs
-#    conn = 'mongodb://localhost:27017'
-#    client = pymongo.MongoClient(conn)
-    
-    # Define database and collection
-#    db = client.mars
-#    collection = db.items
-#    mars = collection.find_one()
-#    return render_template('index.html', mars=mars)
+    return render_template('index.html')
 
 @app.route('/names')
 def names():

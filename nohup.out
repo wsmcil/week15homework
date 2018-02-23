@@ -127,3 +127,5 @@ Known labextensions:
 [I 20:21:31.959 NotebookApp] Saving file at /jupyter_prep.ipynb
 [I 20:25:33.654 NotebookApp] Saving file at /jupyter_prep.ipynb
 [I 20:26:09.993 NotebookApp] Saving file at /jupyter_prep.ipynb
+[I 19:54:18.076 NotebookApp] Kernel shutdown: a132ff96-c97f-4edf-a136-363d0efa1311
+[W 19:54:23.724 NotebookApp] 404 GET /favicon.ico (::1) 40.71ms referer=None
