@@ -39,6 +39,16 @@ function getData(dataset) {
 }
 
 function addSelector(){
+    $.ajax({
+        url:("names/"),
+        dataType:'text',
+        type: 'get',
+        success:function(response){
+            var list = response;
+            var mylist = list;
+ //             ** If yout API returns something, you're going to proccess the data here.
+        }
+    });
     var elem = document.getElementById('selDataset');
     elem.options.add( new Option("Ukraine","dataset4") );
     

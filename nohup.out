@@ -129,3 +129,25 @@ Known labextensions:
 [I 20:26:09.993 NotebookApp] Saving file at /jupyter_prep.ipynb
 [I 19:54:18.076 NotebookApp] Kernel shutdown: a132ff96-c97f-4edf-a136-363d0efa1311
 [W 19:54:23.724 NotebookApp] 404 GET /favicon.ico (::1) 40.71ms referer=None
+[I 20:37:05.598 NotebookApp] The port 8888 is already in use, trying another port.
+[I 20:37:05.599 NotebookApp] The port 8889 is already in use, trying another port.
+[I 20:37:05.600 NotebookApp] The port 8890 is already in use, trying another port.
+[I 20:37:05.601 NotebookApp] The port 8891 is already in use, trying another port.
+[I 20:37:05.648 NotebookApp] JupyterLab alpha preview extension loaded from /Users/mcilwaw/anaconda3/lib/python3.6/site-packages/jupyterlab
+JupyterLab v0.27.0
+Known labextensions:
+[I 20:37:05.653 NotebookApp] Running the core application with no additional extensions or settings
+[I 20:37:05.664 NotebookApp] Serving notebooks from local directory: /Users/mcilwaw/GitHub/week15homework
+[I 20:37:05.664 NotebookApp] 0 active kernels 
+[I 20:37:05.664 NotebookApp] The Jupyter Notebook is running at: http://localhost:8892/?token=fd4af512a93a3fdef9c7c04667a7b28a11b8238d1bcaa831
+[I 20:37:05.664 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 20:37:05.667 NotebookApp] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8892/?token=fd4af512a93a3fdef9c7c04667a7b28a11b8238d1bcaa831
+[I 20:37:06.799 NotebookApp] Accepting one-time-token-authenticated connection from 127.0.0.1
+[I 20:37:18.051 NotebookApp] Kernel started: 203dc759-7cfd-4d7f-8804-9bf176f7b22e
+[I 20:37:22.757 NotebookApp] Adapting to protocol v5.1 for kernel 203dc759-7cfd-4d7f-8804-9bf176f7b22e
+[I 11:55:32.004 NotebookApp] Kernel shutdown: 203dc759-7cfd-4d7f-8804-9bf176f7b22e
+[W 11:55:34.832 NotebookApp] 404 GET /favicon.ico (127.0.0.1) 17.99ms referer=None
