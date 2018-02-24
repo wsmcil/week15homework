@@ -76,8 +76,11 @@ function init() {
 
 function updatePlotly(newdata) {
     var PIE = document.getElementById("pie");
+    var BUBBLE = document.getElementById("bubble")
     Plotly.restyle(PIE, "values", [newdata[0].values]);
     Plotly.restyle(PIE, "lables", [newdata[0].labels]);
+    Plotly.restyle(BUBBLE, "values", [newdata[0].values]);
+    Plotly.restyle(BUBBLE, "lables", [newdata[0].labels]);
 }
 
 function getData(dataset) {

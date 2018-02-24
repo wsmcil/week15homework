@@ -197,3 +197,7 @@ Known labextensions:
 [I 16:25:18.471 NotebookApp] Saving file at /jupyter_prep.ipynb
 [I 16:31:18.483 NotebookApp] Saving file at /jupyter_prep.ipynb
 [I 16:33:18.486 NotebookApp] Saving file at /jupyter_prep.ipynb
+[I 20:46:06.293 NotebookApp] Starting buffering for 8f3f6276-ba64-4cae-9753-213ca4111877:D91029916BCE44FD912D88F98CF299D7
+[I 20:46:06.937 NotebookApp] Kernel shutdown: 8f3f6276-ba64-4cae-9753-213ca4111877
+[C 23:01:10.521 NotebookApp] received signal 15, stopping
+[I 23:01:10.528 NotebookApp] Shutting down 0 kernels
