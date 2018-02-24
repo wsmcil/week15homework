@@ -66,7 +66,6 @@ function init() {
 
     // @Objective
     const bubblelayout = {
-        title: "Randomly Generated Data",
         showlegend: false,
         height: 500,
         width: 1000
